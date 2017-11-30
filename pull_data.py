@@ -25,7 +25,9 @@ def get_page(url):
 def rand_wh_page():
     randInt = str(random.randrange(MAX_VAL))
     #print("random val: "+randInt)
-    return get_page("https://wikihow.com/api.php?action=app&subcmd=article&format=json&random=true&_=" + randInt)
+    #page = get_page("https://wikihow.com/api.php?action=app&subcmd=article&format=json&random=true&_=" + randInt)
+    page = get_page("https://wikihow.com/api.php?action=app&subcmd=article&format=json&name=Ripen-Bananas-Quickly")
+    return page
 
 #converts page from JSON to XML format
 def convert_to_xml(page):
@@ -46,58 +48,57 @@ def get_first_sec_words(page, count = 1):
 
 #removes HTML tags and citations from a string s
 def remove_HTML_and_citations(s):
-    #replace HTML tags with spaces
+    if str(s) == "None" : return ""
+    #remove HTML tags
     s = re.sub("<[^>]+>", "", s)
     #remove citations
     s = re.sub("\[[\d]+\]", "", s)
     return s
+
+#Returns a list of all titles, abstracts, method titles, step summaries, and step texts
+#in page in order of appearance.
+#In other words, it makes the article into a list
+def make_text_list(page):
+    #get a page in XML format
+    xmlPage = convert_to_xml(page)
+    root = ET.fromstring(xmlPage)
+    #getting url
+    url = root.find("./app/url").text
+    print(url)
+    print("\n")
+    textList = []
+    title = root.find("./app/fulltitle").text
+    textList.append(title)
+    abstract = root.find("./app/abstract").text
+    textList.append(abstract)
+    body = root.findall("./app/sections/item/methods/item")
+    for section in body:
+        #method
+        textList.append(remove_HTML_and_citations(section.find("./name").text))
+        steps = section.findall("./steps/item")
+        for step in steps:
+            #summary
+            summary = remove_HTML_and_citations(step.find("./summary").text)
+            textList.append(summary)
+            #text
+            #print(step.find("./html").text)
+            text = remove_HTML_and_citations(step.find("./html").text)
+            textList.append(text)
+    return textList
+
+
+list = make_text_list(rand_wh_page())
+for item in list: print(item + "\n")
 
 #TESTING_CODE
 #print(str(get_page("https://wikihow.com/api.php?action=app&subcmd=article&format=json&random=true&_=")))
 #print(str(rand_wh_page()))
 #get_first_sec_words(rand_wh_page())
 
-if(False):
-    xml_page = convert_to_xml(rand_wh_page())
-    dom = parseString(xml_page)
-    pretty = dom.toprettyxml()
-    f = open("xml_test.txt", "w", encoding="utf-8")
-    f.write(pretty)
-    f.close()
-
-for i in range(1):
-    #get a page in XML format
-    xml_page = convert_to_xml(rand_wh_page())
-    root = ET.fromstring(xml_page)
-    #query title
-    title = root.find("./app/fulltitle").text
-    print("title: "+title)
-
-    url = root.find("./app/url").text
-    print("url: " + url)
-
-    abstract = root.find("./app/abstract").text
-    print("abstract:")
-    print(remove_HTML_and_citations(abstract))
-
-    methods = root.findall("./app/sections/item/methods/item/name")
-    print("\nmethods: ")
-    for method in methods:
-        print(method.text)
-
-
-    summaries = root.findall("./app/sections/item/methods/item/steps/item/summary")
-    print("\nsummaries: ")
-    for summary in summaries:
-        print(summary.text)
-
-    steps = root.findall("./app/sections/item/methods/item/steps/item/html")
-    print("\nsteps: ")
-    for step in steps:
-        print(remove_HTML_and_citations(step.text))
-        print ("\n")
-        #dom = parseString(xml_page)
-    #pretty = dom.toprettyxml()
-    #f = open(title+".txt", "w", encoding="utf-8")
-    #f.write(pretty)
-    #f.close()
+#if(False):
+#    xml_page = convert_to_xml(rand_wh_page())
+#    dom = parseString(xml_page)
+#    pretty = dom.toprettyxml()
+#    f = open("xml_test.txt", "w", encoding="utf-8")
+#    f.write(pretty)
+#    f.close()
