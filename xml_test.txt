@@ -1,0 +1,780 @@
+<?xml version="1.0" ?>
+<root>
+	<app type="dict">
+		<id type="int">740934</id>
+		<revision_id type="int">122643132</revision_id>
+		<title type="str">Hang a Wall Tapestry</title>
+		<fulltitle type="str">How to Hang a Wall Tapestry</fulltitle>
+		<url type="str">https://www.wikihow.com/Hang-a-Wall-Tapestry</url>
+		<image type="dict">
+			<url type="str">https://www.wikihow.com/images/thumb/e/eb/Hang-a-Wall-Tapestry-Step-46.jpg/600px-nowatermark-Hang-a-Wall-Tapestry-Step-46.jpg</url>
+			<width type="int">600</width>
+			<height type="int">450</height>
+			<large type="str">https://www.wikihow.com/images/e/eb/Hang-a-Wall-Tapestry-Step-46.jpg</large>
+			<large_width type="int">0</large_width>
+			<large_height type="int">0</large_height>
+		</image>
+		<abstract type="str">Tapestries can be beautiful decorations for rooms and walls that need something a little extra. They can also add texture to walls and dampen noise. Even though tapestries cannot break if they fall, they still look better if hung properly....</abstract>
+		<sections type="list">
+			<item type="dict">
+				<html type="str">&lt;p itemprop=&quot;description&quot;&gt;Tapestries can be beautiful decorations for rooms and walls that need something a little extra. They can also add texture to walls and dampen noise. Even though tapestries cannot break if they fall, they still look better if hung properly. There are many different ways to hang tapestries but no matter which method you choose, with a few steps you will have a lovely tapestry hanging on your wall in no time!&lt;/p&gt;</html>
+				<type type="str">intro</type>
+				<image type="dict">
+					<url type="str">https://www.wikihow.com/images/thumb/e/eb/Hang-a-Wall-Tapestry-Step-46.jpg/600px-nowatermark-Hang-a-Wall-Tapestry-Step-46.jpg</url>
+					<width type="int">600</width>
+					<height type="int">450</height>
+					<large type="str">https://www.wikihow.com/images/e/eb/Hang-a-Wall-Tapestry-Step-46.jpg</large>
+					<large_width type="int">0</large_width>
+					<large_height type="int">0</large_height>
+				</image>
+			</item>
+			<item type="dict">
+				<heading type="str">Steps</heading>
+				<type type="str">steps</type>
+				<methods type="list">
+					<item type="dict">
+						<name type="str">Using a Rod with Finials</name>
+						<type type="str">method</type>
+						<steps type="list">
+							<item type="dict">
+								<num type="str">1</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/8/83/Hang-a-Wall-Tapestry-Step-1-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-1-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/8/83/Hang-a-Wall-Tapestry-Step-1-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-1-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/9/9e/Hang%20a%20Wall%20Tapestry%20Step%201.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Use a rod with finials if your tapestry has a rod pocket.</summary>
+								<html type="str">Most modern tapestries will come with a rod pocket along the top edge. In this case you can use a rod, which will look a bit like a curtain rod. This is a simple and straightforward method for hanging tapestries.
+
+ &lt;ul&gt;
+&lt;li&gt;Brackets can be added to the wall from which to hang the rod. &lt;/li&gt; &lt;li&gt;Keep in mind that this method will result in your tapestry hanging away from the wall, with the distance depending on your particular brackets. If you want you tapestry to hang flush with the wall, try another method.&lt;cite num=&quot;1&quot;&gt;[1]&lt;/cite&gt; &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">2</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/c/c9/Hang-a-Wall-Tapestry-Step-2-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-2-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/c/c9/Hang-a-Wall-Tapestry-Step-2-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-2-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/3/35/Hang%20a%20Wall%20Tapestry%20Step%202.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Obtain a rod, finials and wall brackets.</summary>
+								<html type="str">Choose a rod with decorative finials that will fit in with the room’s existing decor. Although there are rods made specifically for tapestries, you can also use normal curtain rods. However, you must make sure the rod fits inside the pocket of the tapestry. The necessary rod diameter depends upon the weight of the tapestry and the length depends on the width of the tapestry.
+
+ &lt;ul&gt;
+&lt;li&gt;A 1/2 inch to 3/4 inch diameter rod will hold an average or large size tapestry anywhere from 2 to 10 lbs. &lt;/li&gt; &lt;li&gt;The rod should be long enough so that the rod finials extend beyond the edges of the tapestry with the brackets meeting the edges of the tapestry. This will allow the tapestry to slightly shadow the brackets giving more focus to the finials than the brackets. &lt;/li&gt; &lt;li&gt;The wall brackets should stick out from the wall a little so that the tapestry will hang at least ½ inch (1 cm) away from the wall. This will prevent moisture build-up. &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">3</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/1/19/Hang-a-Wall-Tapestry-Step-3-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-3-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/1/19/Hang-a-Wall-Tapestry-Step-3-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-3-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/8/85/Hang%20a%20Wall%20Tapestry%20Step%203.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Determine where you would like to hang the tapestry.</summary>
+								<html type="str">You would usually want to hang the tapestry so that the center is at eye level for an average sized person. However, you can hang the tapestry however you wish so it fits in with the rest of your room.
+
+ &lt;ul&gt;
+&lt;li&gt;You may have to hang the tapestry a bit higher if hanging over a sofa or if you have very high walls. &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">4</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/3/37/Hang-a-Wall-Tapestry-Step-4-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-4-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/3/37/Hang-a-Wall-Tapestry-Step-4-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-4-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/d/df/Hang%20a%20Wall%20Tapestry%20Step%204.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Iron the tapestry if needed.</summary>
+								<html type="str">Prior to hanging your tapestry, ironing may be needed to remove creases. Use a low to medium iron to test first and iron on the back of the tapestry. If creases do not come out by ironing the back, then use a dye-free bed sheet and place over the front of the tapestry to iron.
+
+ &lt;ul&gt;
+&lt;li&gt;You may need to increase the temperature of the iron and use some steam to remove the creases but always test in a corner of the tapestry first. &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">5</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/4/4d/Hang-a-Wall-Tapestry-Step-5-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-5-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/4/4d/Hang-a-Wall-Tapestry-Step-5-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-5-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/7/74/Hang%20a%20Wall%20Tapestry%20Step%205.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Find your studs.</summary>
+								<html type="str">&lt;a title=&quot;Find a Stud&quot; articleid=&quot;3311804&quot;&gt;Find your wall studs&lt;/a&gt; using a stud finder so that you can attach your brackets to them. Drill holes spaced so that the brackets sit just outside the width of the tapestry. Use a level to make sure these holes are even so that your tapestry does not end up crooked.
+
+ &lt;ul&gt;
+&lt;li&gt;Tapestries do not always need to be hung on wall studs. In most cases you can simply use drywall screws and hang the tapestry wherever you like. &lt;/li&gt; &lt;li&gt;If you do not have a level you can also measure from the ceiling down to where you would like to hang the tapestry. Make sure that the distance from the ceiling to the hole is the same on both sides. &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">6</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/7/77/Hang-a-Wall-Tapestry-Step-6-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-6-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/7/77/Hang-a-Wall-Tapestry-Step-6-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-6-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/5/5a/Hang%20a%20Wall%20Tapestry%20Step%206.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Attach your brackets.</summary>
+								<html type="str">Attach the brackets into the wall using the holes you have drilled. Make sure you use the correct screws for your type of wall. These can be masonry screws, drywall screws or simple wood screws.</html>
+							</item>
+							<item type="dict">
+								<num type="str">7</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/4/4c/Hang-a-Wall-Tapestry-Step-7-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-7-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/4/4c/Hang-a-Wall-Tapestry-Step-7-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-7-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/d/d3/Hang%20a%20Wall%20Tapestry%20Step%207.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Push the rod through the rod pocket on the back of the tapestry.</summary>
+								<html type="str">Place the rod though the rod pocket at the top on the back of the tapestry. Attach the finials to each end of the rod.</html>
+							</item>
+							<item type="dict">
+								<num type="str">8</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/7/7c/Hang-a-Wall-Tapestry-Step-8-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-8-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/7/7c/Hang-a-Wall-Tapestry-Step-8-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-8-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/1/19/Hang%20a%20Wall%20Tapestry%20Step%208.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Hang your tapestry on the brackets and enjoy your beautiful new eye-catching piece of art!</summary>
+								<html type="str">Place the rod securely into the wall-mounted brackets and check one last time that everything looks even and secure.</html>
+							</item>
+						</steps>
+					</item>
+					<item type="dict">
+						<name type="str">Using a Baseboard</name>
+						<type type="str">method</type>
+						<steps type="list">
+							<item type="dict">
+								<num type="str">1</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/c/c6/Hang-a-Wall-Tapestry-Step-9-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-9-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/c/c6/Hang-a-Wall-Tapestry-Step-9-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-9-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/b/b8/Hang%20a%20Wall%20Tapestry%20Step%209.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Use baseboard to hang a tapestry with a rod pocket directly against the wall.</summary>
+								<html type="str">This is a very inexpensive and easy method for hanging wall tapestries although it still requires the tapestry to have a rod pocket on the back.
+
+ &lt;ul&gt;
+&lt;li&gt;Your tapestry will be hung very straight by using this method. &lt;/li&gt; &lt;li&gt;This method also ensures that the tapestry is hung flush against the wall.&lt;cite num=&quot;2&quot;&gt;[2]&lt;/cite&gt; &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">2</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/3/36/Hang-a-Wall-Tapestry-Step-10-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-10-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/3/36/Hang-a-Wall-Tapestry-Step-10-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-10-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/4/43/Hang%20a%20Wall%20Tapestry%20Step%2010.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Get a piece of baseboard that is slightly shorter than the width of the tapestry.</summary>
+								<html type="str">Cut a piece of baseboard or another flat piece of wood so that it is slightly shorter than the width of the tapestry.
+
+ &lt;ul&gt;
+&lt;li&gt;The bar can also be made from metal or plastic but these are harder to drill through properly. &lt;/li&gt; &lt;li&gt;Make sure your baseboard fits in the rod pocket on the back of the tapestry.&lt;cite num=&quot;2&quot;&gt;[2]&lt;/cite&gt; &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">3</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/c/ca/Hang-a-Wall-Tapestry-Step-11-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-11-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/c/ca/Hang-a-Wall-Tapestry-Step-11-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-11-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/f/f4/Hang%20a%20Wall%20Tapestry%20Step%2011.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Drill holes in each end of the baseboard.</summary>
+								<html type="str">Drill holes at each end of the baseboard that are equal distances from the ends of the baseboard and centered. These holes should fit the size screws that you will be using.</html>
+							</item>
+							<item type="dict">
+								<num type="str">4</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/8/80/Hang-a-Wall-Tapestry-Step-12-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-12-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/8/80/Hang-a-Wall-Tapestry-Step-12-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-12-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/9/98/Hang%20a%20Wall%20Tapestry%20Step%2012.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Locate your studs.</summary>
+								<html type="str">Use a &lt;a title=&quot;Find a Stud&quot; articleid=&quot;3311804&quot;&gt;stud finder&lt;/a&gt; to locate the studs in the wall. Although this is not always necessary it will help you to find the most secure location to hang your tapestry.
+
+ &lt;ul&gt;
+&lt;li&gt;If you cannot use the studs, do not have studs or would like to put the tapestry in another location you can use drywall screws or masonry screws, depending on the type of wall you are hanging the tapestry on.&lt;cite num=&quot;2&quot;&gt;[2]&lt;/cite&gt; &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">5</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/e/e8/Hang-a-Wall-Tapestry-Step-13-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-13-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/e/e8/Hang-a-Wall-Tapestry-Step-13-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-13-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/0/0d/Hang%20a%20Wall%20Tapestry%20Step%2013.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Mark the screw locations on the walls and drill the holes.</summary>
+								<html type="str">Use the baseboard to mark the location of the screws on the wall. Once holding the baseboard level against the wall you can insert a pencil or screw to make a small mark on the wall. Drill holes into the walls at these locations to align with the holes made in the baseboard.
+
+ &lt;ul&gt;
+&lt;li&gt;Make sure the baseboard is level while you do this to ensure that your tapestry is hung straight.&lt;cite num=&quot;2&quot;&gt;[2]&lt;/cite&gt; &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">6</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/6/64/Hang-a-Wall-Tapestry-Step-14-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-14-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/6/64/Hang-a-Wall-Tapestry-Step-14-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-14-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/a/aa/Hang%20a%20Wall%20Tapestry%20Step%2014.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Insert wall anchors if you are using them.</summary>
+								<html type="str">If you require wall anchors, for example if you are hanging directly into the drywall or have masonry walls, then you should now insert these into the drilled holes.
+
+ &lt;ul&gt;
+&lt;li&gt;Wall anchors will provide extra stability and ensure your screws do not slide out from drywall or masonry walls. &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">7</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/9/99/Hang-a-Wall-Tapestry-Step-15-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-15-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/9/99/Hang-a-Wall-Tapestry-Step-15-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-15-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/b/bb/Hang%20a%20Wall%20Tapestry%20Step%2015.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Slide the baseboard into the rod pocket on the tapestry.</summary>
+								<html type="str">The rod pocket should be located at the top on the back of the tapestry.</html>
+							</item>
+							<item type="dict">
+								<num type="str">8</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/6/63/Hang-a-Wall-Tapestry-Step-16-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-16-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/6/63/Hang-a-Wall-Tapestry-Step-16-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-16-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/3/37/Hang%20a%20Wall%20Tapestry%20Step%2016.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Screw the screws through the baseboard and into the wall.</summary>
+								<html type="str">Start with one side at a time and screw through the baseboard into the hole or wall anchor on that side. Repeat with the screw on the other side.</html>
+							</item>
+							<item type="dict">
+								<num type="str">9</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/8/80/Hang-a-Wall-Tapestry-Step-17-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-17-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/8/80/Hang-a-Wall-Tapestry-Step-17-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-17-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/e/e7/Hang%20a%20Wall%20Tapestry%20Step%2017.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Step back and make sure the tapestry is level.</summary>
+								<html type="str">Now that the tapestry is hung, take a step back to make sure everything looks even and level. If everything is good then you are finished!</html>
+							</item>
+						</steps>
+					</item>
+					<item type="dict">
+						<name type="str">Adding a Casing</name>
+						<type type="str">method</type>
+						<steps type="list">
+							<item type="dict">
+								<num type="str">1</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/1/12/Hang-a-Wall-Tapestry-Step-18-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-18-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/1/12/Hang-a-Wall-Tapestry-Step-18-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-18-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/4/44/Hang%20a%20Wall%20Tapestry%20Step%2018.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Use this method to add a casing or rod pocket if your tapestry does not have one.</summary>
+								<html type="str">If your tapestry has no rod pocket then you can simply add one onto the top back edge of your tapestry to hang using the previous methods.
+
+ &lt;ul&gt;
+&lt;li&gt;This is an easy way to prepare your tapestry for hanging either with a rod or using a baseboard.&lt;cite num=&quot;3&quot;&gt;[3]&lt;/cite&gt; &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">2</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/a/a5/Hang-a-Wall-Tapestry-Step-19-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-19-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/a/a5/Hang-a-Wall-Tapestry-Step-19-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-19-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/8/8a/Hang%20a%20Wall%20Tapestry%20Step%2019.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Obtain a strip of cloth that is slightly shorter than the width of the tapestry.</summary>
+								<html type="str">You can use heavy cotton, linen or even cotton twill rug binding. These materials will be strong enough to hold up your tapestry.
+
+ &lt;ul&gt;
+&lt;li&gt;The strip must be wide enough to be wrapped all the way around your rod lengthwise with a little cloth left over. &lt;cite num=&quot;3&quot;&gt;[3]&lt;/cite&gt; &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">3</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/3/30/Hang-a-Wall-Tapestry-Step-20-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-20-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/3/30/Hang-a-Wall-Tapestry-Step-20-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-20-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/6/67/Hang%20a%20Wall%20Tapestry%20Step%2020.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Hand sew the strip of cloth across the top back edge of the tapestry.</summary>
+								<html type="str">Use heavy cotton button-hole thread to hand sew the strip across the tapestry. Catch at least two warp threads (the underlying straight threads) with each stitch so that it is strong enough to support the tapestry.
+
+ &lt;ul&gt;
+&lt;li&gt;Use thread that is the same color as a dominant color of your tapestry so that it won’t be noticeable. &lt;/li&gt; &lt;li&gt;Make sure you sew the strip so that it sticks up along the middle. This will make room for the rod so that your tapestry lies straight when the rod is inserted. &lt;/li&gt; &lt;li&gt;Be very careful that your strip is straight, even if your tapestry does not have a straight edge. If your strip is not sewn straight, the tapestry will hang crooked as well. &lt;cite num=&quot;3&quot;&gt;[3]&lt;/cite&gt; &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">4</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/c/c2/Hang-a-Wall-Tapestry-Step-21-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-21-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/c/c2/Hang-a-Wall-Tapestry-Step-21-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-21-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/1/1c/Hang%20a%20Wall%20Tapestry%20Step%2021.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Insert a rod into the rod pocket or casing.</summary>
+								<html type="str">You can either use a normal tapestry rod or a baseboard to slide in and hang as normal in the other two methods. Alternatively you can insert a rod that is slightly shorter than the width of the tapestry.
+
+ &lt;ul&gt;
+&lt;li&gt;If using a short rod you can hang it on two screws attached to the wall at the ends of the rod. This way you cannot see any hanging apparatus from the front side. &lt;cite num=&quot;3&quot;&gt;[3]&lt;/cite&gt; &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">5</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/b/b0/Hang-a-Wall-Tapestry-Step-22-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-22-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/b/b0/Hang-a-Wall-Tapestry-Step-22-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-22-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/9/9d/Hang%20a%20Wall%20Tapestry%20Step%2022.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Make sure your tapestry hangs straight and even.</summary>
+								<html type="str">Step back and observe the tapestry to make sure it is hanging straight. If it is not even try taking out the stitches and reattaching the rod pocket or casing. &lt;cite num=&quot;3&quot;&gt;[3]&lt;/cite&gt;</html>
+							</item>
+						</steps>
+					</item>
+					<item type="dict">
+						<name type="str">Using Velcro</name>
+						<type type="str">method</type>
+						<steps type="list">
+							<item type="dict">
+								<num type="str">1</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/d/d3/Hang-a-Wall-Tapestry-Step-23-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-23-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/d/d3/Hang-a-Wall-Tapestry-Step-23-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-23-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/0/01/Hang%20a%20Wall%20Tapestry%20Step%2023.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Use Velcro for an easily alterable method for hanging the tapestry.</summary>
+								<html type="str">Velcro is an adaptable method, which allows you to change the locations of the tapestries from time to time. Velcro is also particularly useful when hanging tapestries on curved walls because it conforms to the wall on which it is mounted.
+
+ &lt;ul&gt;
+&lt;li&gt;This method is preferred by many museum curators for tapestries. &lt;cite num=&quot;3&quot;&gt;[3]&lt;/cite&gt; &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">2</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/1/1d/Hang-a-Wall-Tapestry-Step-24-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-24-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/1/1d/Hang-a-Wall-Tapestry-Step-24-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-24-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/2/26/Hang%20a%20Wall%20Tapestry%20Step%2024.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Obtain a strip of Velcro.</summary>
+								<html type="str">Get a piece of Velcro that is the slightly shorter than the width of your tapestry. You will need both sides of the Velcro so they can attach together. The width of the Velcro will depend on the width and weight of the tapestry you are using.
+
+ &lt;ul&gt;
+&lt;li&gt;Velcro comes in widths between ½ inch (1.25 cm) and 4 inches (10 cm). The longer and heavier your tapestry is, the wider Velcro you should use to support it. &lt;cite num=&quot;4&quot;&gt;[4]&lt;/cite&gt; &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">3</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/e/e0/Hang-a-Wall-Tapestry-Step-25-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-25-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/e/e0/Hang-a-Wall-Tapestry-Step-25-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-25-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/9/9d/Hang%20a%20Wall%20Tapestry%20Step%2025.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Sew the soft, fuzzy side of the Velcro to the tapestry.</summary>
+								<html type="str">Use heavy cotton button-hole thread to sew the fuzzy side of the Velcro to the back top edge of the tapestry. Make sure you sew over at least two warp threads with each stitch so that it is strong enough for hanging.
+
+ &lt;ul&gt;
+&lt;li&gt;Make sure the thread is the same color as one of the dominant colors in your tapestry so that it blends in. &lt;/li&gt; &lt;li&gt;You can also machine stitch the Velcro to a canvas strip first and then hand stitch the strip to the tapestry in the same way. This provides extra stiffness and support for the tapestry to hang straight. &lt;cite num=&quot;4&quot;&gt;[4]&lt;/cite&gt; &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">4</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/a/a3/Hang-a-Wall-Tapestry-Step-26-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-26-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/a/a3/Hang-a-Wall-Tapestry-Step-26-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-26-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/e/e9/Hang%20a%20Wall%20Tapestry%20Step%2026.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Get a piece of baseboard or strip of wood and drill holes in the ends.</summary>
+								<html type="str">The strip should be slightly shorter than the width of the tapestry. Drill a hole in each end of the piece of wood. The holes should be equidistant from the ends and centered. &lt;cite num=&quot;4&quot;&gt;[4]&lt;/cite&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">5</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/8/8d/Hang-a-Wall-Tapestry-Step-27-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-27-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/8/8d/Hang-a-Wall-Tapestry-Step-27-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-27-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/7/7b/Hang%20a%20Wall%20Tapestry%20Step%2027.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Staple the stiffer side of the Velcro to the piece of wood.</summary>
+								<html type="str">Use wood staples to staple the piece of Velcro along the wooden board at one inch (2.5 cm) spacing. Make sure the Velcro does not cover the holes in the board.
+
+ &lt;ul&gt;
+&lt;li&gt;If you are attaching the tapestry to a curved wall you will either need to use a bendable board or simply attach the Velcro directly to the wall. &lt;cite num=&quot;4&quot;&gt;[4]&lt;/cite&gt; &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">6</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/4/4a/Hang-a-Wall-Tapestry-Step-28-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-28-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/4/4a/Hang-a-Wall-Tapestry-Step-28-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-28-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/8/84/Hang%20a%20Wall%20Tapestry%20Step%2028.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Use the board to mark holes on the wall where the screws will go.</summary>
+								<html type="str">Hang up the baseboard on the wall, making sure it is level, and mark the locations of the two holes on the wall. Remove the board and drill two holes into the wall.
+
+ &lt;ul&gt;
+&lt;li&gt;Insert wall anchors into the wall if you are drilling directly into drywall or masonry walls. &lt;cite num=&quot;4&quot;&gt;[4]&lt;/cite&gt; &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">7</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/7/73/Hang-a-Wall-Tapestry-Step-29-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-29-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/7/73/Hang-a-Wall-Tapestry-Step-29-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-29-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/d/d2/Hang%20a%20Wall%20Tapestry%20Step%2029.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Insert screws through the board and into the wall.</summary>
+								<html type="str">Screw the screws through the pre-drilled holes in the board and into the wall anchors to secure the board. Make sure the board is level before proceeding. &lt;cite num=&quot;4&quot;&gt;[4]&lt;/cite&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">8</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/c/c3/Hang-a-Wall-Tapestry-Step-30-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-30-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/c/c3/Hang-a-Wall-Tapestry-Step-30-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-30-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/c/c9/Hang%20a%20Wall%20Tapestry%20Step%2030.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Attach the tapestry to the board using the Velcro.</summary>
+								<html type="str">Simply press the Velcro on the tapestry against the Velcro attached to the board to secure. Make sure there are no bumps and that the tapestry is hung straight. &lt;cite num=&quot;4&quot;&gt;[4]&lt;/cite&gt;</html>
+							</item>
+						</steps>
+					</item>
+					<item type="dict">
+						<name type="str">Mounting on Stretchers</name>
+						<type type="str">method</type>
+						<steps type="list">
+							<item type="dict">
+								<num type="str">1</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/b/b1/Hang-a-Wall-Tapestry-Step-31-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-31-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/b/b1/Hang-a-Wall-Tapestry-Step-31-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-31-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/5/50/Hang%20a%20Wall%20Tapestry%20Step%2031.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Mount the tapestry on stretchers to provide a rigid background.</summary>
+								<html type="str">This involves stretching heavy fabric over a frame and then attaching the tapestry to the stretched fabric. This also provides a kind of border for your tapestry. &lt;cite num=&quot;3&quot;&gt;[3]&lt;/cite&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">2</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/c/c8/Hang-a-Wall-Tapestry-Step-32-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-32-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/c/c8/Hang-a-Wall-Tapestry-Step-32-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-32-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/e/ef/Hang%20a%20Wall%20Tapestry%20Step%2032.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Create a wooden frame or cut a piece of painted plywood to size.</summary>
+								<html type="str">You can make a wooden frame using four thin pieces of wood cut to the desired lengths and widths and gluing or screwing them together. Use corner brackets to increase the stability of the frame.
+
+ &lt;ul&gt;
+&lt;li&gt;You can also use a piece of painted plywood as your backing. Simply cut the piece to the size you desire for your background. &lt;/li&gt; &lt;li&gt;The frame should be at least one inch (2.5 cm) wider on each side than your tapestry but you can use any border size you think looks appropriate. &lt;/li&gt; &lt;li&gt;You can also use foam core for your background instead of plywood or a wooden frame. Foam core is particularly easy to stitch through and thus makes an ideal base, but it is not suitable for heavy tapestries. Rather use a foam core only for smaller sized tapestries. &lt;cite num=&quot;3&quot;&gt;[3]&lt;/cite&gt; &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">3</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/4/46/Hang-a-Wall-Tapestry-Step-33-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-33-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/4/46/Hang-a-Wall-Tapestry-Step-33-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-33-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/e/e9/Hang%20a%20Wall%20Tapestry%20Step%2033.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Stretch canvas or another sturdy material over your frame or plywood.</summary>
+								<html type="str">Use a heavy material such as canvas and stretch it over the frame or plywood. Ensure that the piece of material is at least 1.5 inches (3.75 cm) long on each side so that you can fold it over the edges easily. Use wood staples to staple the material onto the frame.
+
+ &lt;ul&gt;
+&lt;li&gt;If you want to use a lightweight material such as silk as your border then you should stretch it over a sturdy canvas or other material. This way the canvas underneath will provide support but you can also create the look you desire. You can also use a middle layer of soft cotton flannel in between. &lt;cite num=&quot;3&quot;&gt;[3]&lt;/cite&gt; &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">4</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/6/65/Hang-a-Wall-Tapestry-Step-34-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-34-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/6/65/Hang-a-Wall-Tapestry-Step-34-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-34-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/e/ef/Hang%20a%20Wall%20Tapestry%20Step%2034.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Stitch the tapestry to the fabric.</summary>
+								<html type="str">Use heavy cotton thread with large staggered stitches to attach the tapestry to the background material. Make sure the stitches cross at least two warp stitches each time.
+
+ &lt;ul&gt;
+&lt;li&gt;Pick a color thread that matches the dominant color on the tapestry so that you cannot see the stitches from the front. &lt;/li&gt; &lt;li&gt;Sew along the edges as well as in other areas to fully support the weight of the tapestry. &lt;/li&gt; &lt;li&gt;You can also combine the frame and Velcro methods by stitching Velcro to the frame and tapestry instead. This way if you get tired of your tapestry locations and want to rotate them you can simply un-Velcro and switch them. &lt;cite num=&quot;3&quot;&gt;[3]&lt;/cite&gt; &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">5</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/0/08/Hang-a-Wall-Tapestry-Step-35-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-35-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/0/08/Hang-a-Wall-Tapestry-Step-35-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-35-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/9/99/Hang%20a%20Wall%20Tapestry%20Step%2035.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Use a frame if desired.</summary>
+								<html type="str">You can also use a purchased frame if you choose for your tapestry. This frame should provide ample space for the canvas and tapestry to fit inside. You do not want the glass or plexiglass cover to touch the tapestry or else if can cause a build up of moisture.
+
+ &lt;ul&gt;
+&lt;li&gt;Many museums use a shadow box frame or plexiglass box to frame their tapestries. &lt;/li&gt; &lt;li&gt;Make sure there is air circulation as well so that no moisture builds up in the frame. &lt;cite num=&quot;3&quot;&gt;[3]&lt;/cite&gt; &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">6</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/3/39/Hang-a-Wall-Tapestry-Step-36-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-36-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/3/39/Hang-a-Wall-Tapestry-Step-36-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-36-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/5/59/Hang%20a%20Wall%20Tapestry%20Step%2036.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Hang your frame on the wall.</summary>
+								<html type="str">Use normal methods for &lt;a title=&quot;Hang Pictures&quot; articleid=&quot;1322002&quot;&gt;hanging pictures&lt;/a&gt; to hang your frame on the wall. Find the studs in the wall and partially screw two screws in at a distance suitable for your frame. You can then simply rest the edges of your frame on these screws to hang.
+
+ &lt;ul&gt;
+&lt;li&gt;Make sure you hang the frame using a level so that it hangs straight. &lt;/li&gt; &lt;li&gt;You can also use a variety of hardware designed for hanging picture frames on the walls. Be aware that if your frame is particularly heavy you will need to use heavy-duty hardware or else the frame will fall. &lt;cite num=&quot;3&quot;&gt;[3]&lt;/cite&gt; &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+						</steps>
+					</item>
+					<item type="dict">
+						<name type="str">Hanging a Tapestry with Fringe at the Top</name>
+						<type type="str">method</type>
+						<steps type="list">
+							<item type="dict">
+								<num type="str">1</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/b/b8/Hang-a-Wall-Tapestry-Step-37-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-37-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/b/b8/Hang-a-Wall-Tapestry-Step-37-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-37-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/0/0c/Hang%20a%20Wall%20Tapestry%20Step%2037.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Use this method if you have a tapestry with fringe at the top.</summary>
+								<html type="str">Having fringe hanging down from the top of your tapestry may not look very appealing. This method hides the top fringe behind a board or piece of wood, creating a cleaner and more polished look. &lt;cite num=&quot;3&quot;&gt;[3]&lt;/cite&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">2</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/2/2e/Hang-a-Wall-Tapestry-Step-38-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-38-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/2/2e/Hang-a-Wall-Tapestry-Step-38-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-38-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/3/31/Hang%20a%20Wall%20Tapestry%20Step%2038.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Cut a piece of wood so that it is just shorter than the width of the tapestry.</summary>
+								<html type="str">You will use a piece of wood to hold up the tapestry so the size of wood required depends on the weight of the tapestry.
+
+ &lt;ul&gt;
+&lt;li&gt;For normal applications you can use a piece of 1x2 (22mm by 44mm) or 1x3 (22mm by 72mm) wood but if your tapestry is particularly large or heavy you should consider larger sizes. &lt;cite num=&quot;3&quot;&gt;[3]&lt;/cite&gt; &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">3</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/5/58/Hang-a-Wall-Tapestry-Step-39-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-39-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/5/58/Hang-a-Wall-Tapestry-Step-39-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-39-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/3/32/Hang%20a%20Wall%20Tapestry%20Step%2039.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Paint the piece of wood.</summary>
+								<html type="str">Paint the wood using to prevent acid deterioration of the tapestry where it will be touching the wood.
+
+ &lt;ul&gt;
+&lt;li&gt;You will be able to see the board on the ends so use a color that either matches the wall or the dominant colors of the tapestry. &lt;cite num=&quot;3&quot;&gt;[3]&lt;/cite&gt; &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">4</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/9/96/Hang-a-Wall-Tapestry-Step-40-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-40-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/9/96/Hang-a-Wall-Tapestry-Step-40-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-40-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/9/92/Hang%20a%20Wall%20Tapestry%20Step%2040.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Hand sew a heavy fabric along the top edge of the tapestry.</summary>
+								<html type="str">Cut a heavy canvas-type fabric so that it is a few inches longer than the width of the tapestry. Hand sew this canvas to the top front edge of the tapestry.
+
+ &lt;ul&gt;
+&lt;li&gt;The canvas fabric should be about six or seven inches wide, but if more support is needed for heavier tapestries then you can use a wider strip. &lt;/li&gt; &lt;li&gt;Make sure the stitches are straight even if the tapestry end is not perfectly straight or else you will end of with a crooked tapestry. &lt;/li&gt; &lt;li&gt;You may need several rows of stitches when sewing on the canvas, especially for heavier tapestries. &lt;/li&gt; &lt;li&gt;Make sure each stitch covers at least two warp threads and use heavy cotton thread that matches the dominant color of your tapestry. &lt;cite num=&quot;3&quot;&gt;[3]&lt;/cite&gt; &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">5</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/7/73/Hang-a-Wall-Tapestry-Step-41-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-41-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/7/73/Hang-a-Wall-Tapestry-Step-41-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-41-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/4/49/Hang%20a%20Wall%20Tapestry%20Step%2041.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Fold over the edges of the canvas and flop this section to the back.</summary>
+								<html type="str">Fold the ends of the canvas strip around to the back of the tapestry, enclosing the fringe and edges of the tapestry on the top. Then flop the entire piece over so that it is facing the back. &lt;cite num=&quot;3&quot;&gt;[3]&lt;/cite&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">6</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/c/c9/Hang-a-Wall-Tapestry-Step-42-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-42-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/c/c9/Hang-a-Wall-Tapestry-Step-42-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-42-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/f/f5/Hang%20a%20Wall%20Tapestry%20Step%2042.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Drill holes into the board or piece of wood for fastening to the wall.</summary>
+								<html type="str">Drill holes near the ends of the board so that they are centered and even. They should also be equidistant from the ends. &lt;cite num=&quot;3&quot;&gt;[3]&lt;/cite&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">7</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/0/05/Hang-a-Wall-Tapestry-Step-43-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-43-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/0/05/Hang-a-Wall-Tapestry-Step-43-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-43-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/3/30/Hang%20a%20Wall%20Tapestry%20Step%2043.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Use the board to mark and drill holes into the wall.</summary>
+								<html type="str">Use a level while placing the board against the wall to mark the locations you will be drilling into the wall. The best option is to use a stud finder to find studs to drill into. Alternatively you can use drywall screws and place them directly into the drywall.
+
+ &lt;ul&gt;
+&lt;li&gt;Insert wall anchors if you are drilling into drywall or masonry. &lt;/li&gt; &lt;li&gt;Make sure the screws you will be using are strong enough if you have an especially large tapestry. Check the manufacturer’s label for their strength. &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">8</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/c/cf/Hang-a-Wall-Tapestry-Step-44-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-44-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/c/cf/Hang-a-Wall-Tapestry-Step-44-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-44-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/4/49/Hang%20a%20Wall%20Tapestry%20Step%2044.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Slide the board or painted piece of wood underneath this flap and secure with staples.</summary>
+								<html type="str">Slide the painted board underneath the flap so that it is between the canvas and top of the tapestry. Use wood staples to staple the canvas directly to the backside of the piece of wood. &lt;cite num=&quot;3&quot;&gt;[3]&lt;/cite&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">9</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/e/ee/Hang-a-Wall-Tapestry-Step-45-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-45-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/e/ee/Hang-a-Wall-Tapestry-Step-45-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-45-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/4/48/Hang%20a%20Wall%20Tapestry%20Step%2045.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Lift up the hanging tapestry and secure the board to the wall.</summary>
+								<html type="str">You may need help to hold up the tapestry while you are driving screws through the board and into your wall. Make sure the board is secure and level.
+
+ &lt;ul&gt;
+&lt;li&gt;The canvas wrapped fringe and top edge of the tapestry should be between the board and the wall. Make sure you secure the board tightly against the wall to secure the tapestry in place. &lt;cite num=&quot;3&quot;&gt;[3]&lt;/cite&gt; &lt;/li&gt; &lt;/ul&gt;</html>
+							</item>
+							<item type="dict">
+								<num type="str">10</num>
+								<whvid type="dict">
+									<lrgimg type="str">/images/thumb/6/62/Hang-a-Wall-Tapestry-Step-46-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-46-preview.jpg</lrgimg>
+									<smlimg type="str">/images/thumb/6/62/Hang-a-Wall-Tapestry-Step-46-preview.jpg/550px-nowatermark-Hang-a-Wall-Tapestry-Step-46-preview.jpg</smlimg>
+									<vid type="str">https://d5kh2btv85w9n.cloudfront.net/3/31/Hang%20a%20Wall%20Tapestry%20Step%2046.360p.mp4</vid>
+								</whvid>
+								<summary type="str">Allow the flap of tapestry to come down once more and check that it is level.</summary>
+								<html type="str">Now that the board is securely attached to the wall you can bring down the flap of tapestry that was being held up. Make sure everything looks even and straight and admire your work!</html>
+							</item>
+						</steps>
+					</item>
+				</methods>
+			</item>
+			<item type="dict">
+				<heading type="str">Video</heading>
+				<type type="str">video</type>
+				<video type="str">https://www.youtube.com/embed/dzHrg1ytGh8</video>
+				<html type="str"/>
+			</item>
+			<item type="dict">
+				<heading type="str">Tips</heading>
+				<type type="str">tips</type>
+				<list type="list">
+					<item type="dict">
+						<html type="str">Never use adhesives when mounting fine textiles. These adhesives will damage the material.</html>
+					</item>
+					<item type="dict">
+						<html type="str">You can use brads or push pins as a temporary solution for hanging your tapestry but these methods can damage the tapestry by cutting threads, putting pressure on certain locations in the weaving or rusting. Spring clips are also only a temporary solution.</html>
+					</item>
+					<item type="dict">
+						<html type="str">If your tapestry still hands irregularly, consider adding a thin casing or rod pocket at the bottom. Once sewn on, you can add a rod to keep the tapestry hanging straight.</html>
+					</item>
+					<item type="dict">
+						<html type="str">Always paint any wood that comes in direct contact with the tapestry. The acid in the wood can damage the textile. &lt;cite num=&quot;3&quot;&gt;[3]&lt;/cite&gt;</html>
+					</item>
+					<item type="dict">
+						<html type="str">Never hang a textile with rings because the fabric’s weight will be unevenly distributed, which can damage the fabric. &lt;cite num=&quot;3&quot;&gt;[3]&lt;/cite&gt;</html>
+					</item>
+				</list>
+			</item>
+			<item type="dict">
+				<heading type="str">Warnings</heading>
+				<type type="str">warnings</type>
+				<list type="list">
+					<item type="dict">
+						<html type="str">Always follow safety precautions when using any power tools.</html>
+					</item>
+					<item type="dict">
+						<html type="str">Be very careful when using a ladder to hang tapestries in hard to reach locations. Many accidents occur every year due to falls from ladders so ensure that the ladder is secure before using.</html>
+					</item>
+					<item type="dict">
+						<html type="str">If choosing to hang tassels with your tapestry, consider children and pets (cats) who may find tassels fun to play with. Tassels, like any other window hanging cords, can create a strangulation risk. It is best to avoid using tassels if you have kids or pets.</html>
+					</item>
+				</list>
+			</item>
+			<item type="dict">
+				<heading type="str">Related wikiHows</heading>
+				<type type="str">relatedwikihows</type>
+				<articles type="list">
+					<item type="dict">
+						<id type="int">381095</id>
+						<title type="str">How to Clean a Tapestry with Bran</title>
+						<image type="dict">
+							<url type="str">https://www.wikihow.com/images/thumb/1/1d/Clean-a-Tapestry-with-Bran-Step-4-Version-2.jpg/600px-nowatermark-Clean-a-Tapestry-with-Bran-Step-4-Version-2.jpg</url>
+							<width type="int">600</width>
+							<height type="int">399</height>
+							<large type="str">https://www.wikihow.com/images/thumb/1/1d/Clean-a-Tapestry-with-Bran-Step-4-Version-2.jpg/1200px-nowatermark-Clean-a-Tapestry-with-Bran-Step-4-Version-2.jpg</large>
+							<large_width type="int">1200</large_width>
+							<large_height type="int">798</large_height>
+							<original type="str">https://www.wikihow.com/images/1/1d/Clean-a-Tapestry-with-Bran-Step-4-Version-2.jpg</original>
+							<original_width type="int">4250</original_width>
+							<original_height type="int">2826</original_height>
+						</image>
+					</item>
+					<item type="dict">
+						<id type="int">1374067</id>
+						<title type="str">How to Make a Wall Hanging</title>
+						<image type="dict">
+							<url type="str">https://www.wikihow.com/images/thumb/d/d6/Make-a-Wall-Hanging-Step-19.jpg/600px-nowatermark-Make-a-Wall-Hanging-Step-19.jpg</url>
+							<width type="int">600</width>
+							<height type="int">450</height>
+							<large type="str">https://www.wikihow.com/images/thumb/d/d6/Make-a-Wall-Hanging-Step-19.jpg/1200px-nowatermark-Make-a-Wall-Hanging-Step-19.jpg</large>
+							<large_width type="int">1200</large_width>
+							<large_height type="int">900</large_height>
+							<original type="str">https://www.wikihow.com/images/d/d6/Make-a-Wall-Hanging-Step-19.jpg</original>
+							<original_width type="int">3200</original_width>
+							<original_height type="int">2400</original_height>
+						</image>
+					</item>
+					<item type="dict">
+						<id type="int">2730117</id>
+						<title type="str">How to Hang a Rug on a Wall</title>
+						<image type="dict">
+							<url type="str">https://www.wikihow.com/images/thumb/6/6e/Hang-a-Rug-on-a-Wall-Step-19.jpg/600px-nowatermark-Hang-a-Rug-on-a-Wall-Step-19.jpg</url>
+							<width type="int">600</width>
+							<height type="int">450</height>
+							<large type="str">https://www.wikihow.com/images/thumb/6/6e/Hang-a-Rug-on-a-Wall-Step-19.jpg/1200px-nowatermark-Hang-a-Rug-on-a-Wall-Step-19.jpg</large>
+							<large_width type="int">1200</large_width>
+							<large_height type="int">900</large_height>
+							<original type="str">https://www.wikihow.com/images/6/6e/Hang-a-Rug-on-a-Wall-Step-19.jpg</original>
+							<original_width type="int">3200</original_width>
+							<original_height type="int">2400</original_height>
+						</image>
+					</item>
+				</articles>
+			</item>
+		</sections>
+		<random type="bool">True</random>
+		<article_sources type="dict">
+			<list type="list"/>
+			<numbered type="list">
+				<item type="dict">
+					<whvid type="dict">
+						<lrgimg type="str"/>
+						<smlimg type="str"/>
+						<vid type="str">https://d5kh2btv85w9n.cloudfront.net</vid>
+					</whvid>
+					<html type="str">&lt;a&gt;↑&lt;/a&gt; &lt;span class=&quot;reference-text&quot;&gt;&lt;a href=&quot;http://homefixated.com/how-to-hang-a-tapestry/&quot;&gt;http://homefixated.com/how-to-hang-a-tapestry/&lt;/a&gt;&lt;/span&gt;</html>
+				</item>
+				<item type="dict">
+					<whvid type="dict">
+						<lrgimg type="str"/>
+						<smlimg type="str"/>
+						<vid type="str">https://d5kh2btv85w9n.cloudfront.net</vid>
+					</whvid>
+					<html type="str">↑ &lt;sup&gt;&lt;a&gt;2.0&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;2.1&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;2.2&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;2.3&lt;/a&gt;&lt;/sup&gt;&lt;span class=&quot;reference-text&quot;&gt;&lt;a href=&quot;http://www.millefleurstapestries.com/en/how-to-hang-a-tapestry&quot;&gt;http://www.millefleurstapestries.com/en/how-to-hang-a-tapestry&lt;/a&gt;&lt;/span&gt;</html>
+				</item>
+				<item type="dict">
+					<whvid type="dict">
+						<lrgimg type="str"/>
+						<smlimg type="str"/>
+						<vid type="str">https://d5kh2btv85w9n.cloudfront.net</vid>
+					</whvid>
+					<html type="str">↑ &lt;sup&gt;&lt;a&gt;3.00&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;3.01&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;3.02&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;3.03&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;3.04&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;3.05&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;3.06&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;3.07&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;3.08&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;3.09&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;3.10&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;3.11&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;3.12&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;3.13&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;3.14&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;3.15&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;3.16&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;3.17&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;3.18&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;3.19&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;3.20&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;3.21&lt;/a&gt;&lt;/sup&gt;&lt;span class=&quot;reference-text&quot;&gt;&lt;a href=&quot;http://www.marlamallett.com/mounting.htm&quot;&gt;http://www.marlamallett.com/mounting.htm&lt;/a&gt;&lt;/span&gt;</html>
+				</item>
+				<item type="dict">
+					<whvid type="dict">
+						<lrgimg type="str"/>
+						<smlimg type="str"/>
+						<vid type="str">https://d5kh2btv85w9n.cloudfront.net</vid>
+					</whvid>
+					<html type="str">↑ &lt;sup&gt;&lt;a&gt;4.0&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;4.1&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;4.2&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;4.3&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;4.4&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;4.5&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;&lt;a&gt;4.6&lt;/a&gt;&lt;/sup&gt;&lt;span class=&quot;reference-text&quot;&gt;&lt;a href=&quot;http://castletapestry.com/hanging.html&quot;&gt;http://castletapestry.com/hanging.html&lt;/a&gt;&lt;/span&gt;</html>
+				</item>
+			</numbered>
+		</article_sources>
+		<authors type="list">
+			<item type="str">Touchoftapestry</item>
+			<item type="str">DifuWu</item>
+			<item type="str">Ttrimm</item>
+			<item type="str">Whoze</item>
+			<item type="str">Cynthia He</item>
+			<item type="str">Anniemp</item>
+			<item type="str">Kriskross7</item>
+			<item type="str">Snowy</item>
+			<item type="str">Tmanzz122</item>
+			<item type="str">RITZROCK</item>
+			<item type="str">HumanBeing</item>
+			<item type="str">Kelly789</item>
+			<item type="str">Sanjana R M</item>
+			<item type="str">SiRing</item>
+			<item type="str">Maluniu</item>
+			<item type="str">Flickety</item>
+			<item type="str">Eric</item>
+		</authors>
+		<image_sources type="dict">
+			<uploaders type="list">
+				<item type="str">Wikivisual (wikiHow)</item>
+			</uploaders>
+			<licenses type="list">
+				<item type="str">cc-by-sa-nc-3.0-self</item>
+			</licenses>
+		</image_sources>
+	</app>
+</root>
