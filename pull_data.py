@@ -25,8 +25,8 @@ def get_page(url):
 def rand_wh_page():
     randInt = str(random.randrange(MAX_VAL))
     #print("random val: "+randInt)
-    #page = get_page("https://wikihow.com/api.php?action=app&subcmd=article&format=json&random=true&_=" + randInt)
-    page = get_page("https://wikihow.com/api.php?action=app&subcmd=article&format=json&name=Ripen-Bananas-Quickly")
+    page = get_page("https://wikihow.com/api.php?action=app&subcmd=article&format=json&random=true&_=" + randInt)
+    #page = get_page("https://wikihow.com/api.php?action=app&subcmd=article&format=json&name=Ripen-Bananas-Quickly")
     return page
 
 #converts page from JSON to XML format
@@ -47,12 +47,14 @@ def get_first_sec_words(page, count = 1):
     return
 
 #removes HTML tags and citations from a string s
-def remove_HTML_and_citations(s):
+def remove_HTML_citations_paren(s):
     if str(s) == "None" : return ""
     #remove HTML tags
     s = re.sub("<[^>]+>", "", s)
     #remove citations
     s = re.sub("\[[\d]+\]", "", s)
+    #remove parentheses
+    s = re.sub("\([^)]+\)", "", s)
     return s
 
 #Returns a list of all titles, abstracts, method titles, step summaries, and step texts
@@ -69,20 +71,21 @@ def make_text_list(page):
     textList = []
     title = root.find("./app/fulltitle").text
     textList.append(title)
-    abstract = root.find("./app/abstract").text
+    #abstract = root.find("./app/abstract").text
+    abstract = remove_HTML_citations_paren(root.find("./app/sections/item/html").text)
     textList.append(abstract)
     body = root.findall("./app/sections/item/methods/item")
     for section in body:
         #method
-        textList.append(remove_HTML_and_citations(section.find("./name").text))
+        textList.append(remove_HTML_citations_paren(section.find("./name").text))
         steps = section.findall("./steps/item")
         for step in steps:
             #summary
-            summary = remove_HTML_and_citations(step.find("./summary").text)
+            summary = remove_HTML_citations_paren(step.find("./summary").text)
             textList.append(summary)
             #text
             #print(step.find("./html").text)
-            text = remove_HTML_and_citations(step.find("./html").text)
+            text = remove_HTML_citations_paren(step.find("./html").text)
             textList.append(text)
     return textList
 
