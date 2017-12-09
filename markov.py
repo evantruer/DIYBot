@@ -1,56 +1,107 @@
-import bisect
-
+import string
+from pathlib import Path
+import random
 
 #Splits a string s into tokens and return a list of strings
-#Right now, just calls str.split() but may later be updated to split punctuation
+#Right now, just calls str.split() on a lowercased text and then separates punctuation
 def tokenize(s):
-    return s.split()
+    tokenList = s.lower().split()
+    newList = []
+    for token in tokenList:
+        if token[len(token)-1].isalnum() == False:
+            newList.append(token[:len(token) - 1])
+            newList.append(token[len(token) - 1])
+        else :
+            newList.append(token)
+    return newList
 
 #Generates Markov chain weights for list tokens and order ord
-#Returns a list of two element tuples:
-# Element 0 is the current state (list of tokens of length <= ord)
-# Element 1 is a list of two element tuples:
-#  Element A is a possible next token
-#  Element B is the number of times A has appeared
+#Returns a dictionary:
+# Keys are tuples of strings and represent the current state
+# Values are themselves dictionaries:
+#  Keys are strings (each possible next token)
+#  Values are positive integers (how many times a specific token appears after the current state)
 def makeWeights(tokens, ord=1):
-    #takes the list, current state, and token, and updates the list
-    def updateWeights(l, state, token):
-        j = 0
-        foundState = False
-        stateIndex = -1
-        while j < len(l):
-            if l[j][0] == state :
-                foundState = True
-                stateIndex = j
-                break
-            j = j + 1
-        if foundState :
-            state = l[j]
-            tokenWeights = state[1]
-
-            k = 0
-            foundWeight = False
-            weightIndex = -1
-            while k < len(tokenWeights) :
-                if tokenWeights[k][0] == token :
-                    foundWeight = True
-                    weightIndex = k
-                    break
-                k = k + 1
-            if foundWeight :
-                placeholder = 0
-            else :
-                #CONTINUE HERE
-        else :
-            l.append((state, [(token, 1)]))
-        return l
-
-    weights = []
+    #The dictionary we'll be working on.
+    weights = {}
+    #Return an empty dictionary if tokens has less than 2 items.
+    #If this is true, there is no token with another token after it.
+    if len(tokens) <= 1 : return weights
+    #The main loop; goes through each token except the first.
+    #We maintain a list of the last ord tokens.
+    #The first token is added to this list automatically.
     currentState = []
-    i = 0
-    while i < len(tokens)-1:
-        currentState.append(tokens[i])
-        if len(currentState) > ord :
-            currentState.pop(0)
-         weights = updateWeights(weights, currentState, tokens[i+1])
-        i = i + 1
+    currentState.append(tokens[0])
+    for nextToken in tokens[1:]:
+        #print(str(currentState))
+        #We have to convert currentState to a tuple to use as a dictionary key.
+        dictKey = tuple(currentState)
+        if dictKey in weights :
+            #This means we need to modify an existing key.
+            if nextToken in weights[dictKey] :
+                #This means [...currentState, nextToken,...] has appeared before in tokens.
+                #So we increment an already existing weight.
+                weights[dictKey][nextToken] = weights[dictKey][nextToken] + 1
+            else :
+                #Otherwise, we must add nextToken to dictionary weights[dictKey] with value 1.
+                weights[dictKey][nextToken] = 1
+
+        else :
+            #dictKey not in weights -> first occurrence of dictKey.
+            #Therefore, we know that we can add it as a key
+            #with its value indicating that the only possible next token
+            #is nextToken, with weight 1.
+            weights[dictKey] = {nextToken : 1}
+        #Now we modify currentState in preparation for the next iteration.
+        currentState.append(nextToken)
+        if len(currentState) > ord : currentState.pop(0)
+    return weights
+
+#TODO: Description
+def makeText(weights, startWords=None, numSentences=1, respectWeights=True, ord=1):
+    #We choose a random starting state if startWords defaults to None.
+    currentState = startWords
+    if currentState is None :  currentState = random.choice(list(weights.keys()))
+    #Man loop. Generates text until numSentences sentences are reached.
+    #Specficially, numSentences is decremented every time we find '.', '?', or '!'
+    textList = []
+    for token in currentState: textList.append(token.lower())
+    while numSentences > 0:
+        currentWeights = weights[tuple(currentState)]
+        nextToken = ''
+        try:
+            if respectWeights:
+                #TODO choose randomly according to weights
+                nextToken = random.choice(list(currentWeights.keys()))
+            else:
+                #Choose as if all weights are 1
+                nextToken = random.choice(list(currentWeights.keys()))
+        #This is to handle an edge case:
+        #Basically, if the current state represents the last ord tokens in the text,
+        #and said token sequence appears nowhere else, there's no "next token."
+        #The only logicl solution is to terminate early even if there are still more sentences to generate.
+        except KeyError: return textList
+        textList.append(nextToken)
+        currentState.append(nextToken)
+        if len(currentState) > ord : currentState.pop(0)
+        #tempBool exists for readability
+        tempBool = currentState[len(currentState)-1] == '.'
+        tempBool = tempBool or currentState[len(currentState) - 1] == '?'
+        tempBool = tempBool or currentState[len(currentState) - 1] == '!'
+        if tempBool : numSentences = numSentences - 1
+    return textList
+
+order = 2
+s = Path("multiTest.txt").read_text()
+weights = makeWeights(tokenize(s),order)
+#for key in weights : print(str(key) +": " + str(weights[key]))
+text = makeText(weights, ['how', 'to'], 5, False, order)
+out = string.capwords(text[0])
+for word in text[1:]:
+    space = " "
+    if len(word) == 0 or word[len(word)-1].isalnum() == False: space = ''
+    if out[len(out)-1] == '.' or out[len(out)-1] == '?' or out[len(out)-1] == '!':
+        word = string.capwords(word)
+        space = ' \n'
+    out = out + space + word
+print(out)
