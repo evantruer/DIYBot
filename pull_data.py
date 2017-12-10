@@ -6,11 +6,20 @@ from xml.dom.minidom import parseString
 import xml.etree.ElementTree as ET
 import re
 from html.parser import HTMLParser
+from enum import Enum
+import markov
 
 #initializes random number generator with system time as seed
 random.seed()
 #max random int value
 MAX_VAL = 100000
+
+class textType(Enum):
+    TITLE = 1
+    ABSTRACT = 2
+    METHOD = 3
+    SUMMARY = 4
+    TEXT = 5
 
 #Pulls the webpage specified by url.
 def get_page(url):
@@ -55,6 +64,8 @@ def remove_HTML_citations_paren(s):
     s = re.sub("\[[\d]+\]", "", s)
     #remove parentheses
     s = re.sub("\([^)]+\)", "", s)
+    #remove quotation marks
+    s = re.sub("\"", "", s)
     return s
 
 #Returns a list of all titles, abstracts, method titles, step summaries, and step texts
@@ -69,29 +80,68 @@ def make_text_list(page):
     print(url)
     print("\n")
     textList = []
-    title = root.find("./app/fulltitle").text
-    textList.append(title)
-    #abstract = root.find("./app/abstract").text
-    abstract = remove_HTML_citations_paren(root.find("./app/sections/item/html").text)
-    textList.append(abstract)
+    title = root.find("./app/fulltitle")
+    if title is not None: textList.append((textType.TITLE, title.text + "."))
+    abstract = root.find("./app/sections/item/html")
+    if abstract is not None: textList.append((textType.ABSTRACT, remove_HTML_citations_paren(abstract.text)))
+    #abstract = remove_HTML_citations_paren(root.find("./app/sections/item/html").text)
+    #textList.append((textType.ABSTRACT, abstract))
     body = root.findall("./app/sections/item/methods/item")
     for section in body:
         #method
-        textList.append(remove_HTML_citations_paren(section.find("./name").text))
+        method = section.find("./name")
+        if method is not None: textList.append((textType.METHOD, remove_HTML_citations_paren(method.text)))
         steps = section.findall("./steps/item")
         for step in steps:
             #summary
-            summary = remove_HTML_citations_paren(step.find("./summary").text)
-            textList.append(summary)
+            summary = step.find("./summary")
+            if summary is not None: textList.append((textType.SUMMARY, remove_HTML_citations_paren(summary.text)))
             #text
-            #print(step.find("./html").text)
-            text = remove_HTML_citations_paren(step.find("./html").text)
-            textList.append(text)
+            text = step.find("./html")
+            if text is not None: textList.append((textType.TEXT, remove_HTML_citations_paren(text.text)))
     return textList
 
+def findStartingWords(textList, ord = 1):
+    titleStarts = []
+    abstractStarts = []
+    methodStarts = []
+    summaryStarts = []
+    textStarts = []
+    for item in textList :
+        splitText = markov.tokenize(item[1])
+        newStartWords = []
+        #skip over very short starting phrases
+        if len(splitText) < ord : continue
+        for i in range(ord):
+            newStartWords.append(splitText[i])
+            newTuple = tuple(newStartWords)
+        if item[0] == textType.TITLE:
+            titleStarts.append(newTuple)
+        elif item[0] == textType.ABSTRACT :
+            abstractStarts.append(newTuple)
+        elif item[0] == textType.METHOD :
+            methodStarts.append(newTuple)
+        elif item[0] == textType.SUMMARY :
+            summaryStarts.append(newTuple)
+        else :
+            textStarts.append(newTuple)
+    return titleStarts, abstractStarts, methodStarts, summaryStarts, textStarts
 
-list = make_text_list(rand_wh_page())
-for item in list: print(item + "\n")
+#makes a plaintext out of a text list
+def make_plaintext(textList):
+    s = ""
+    for item in textList : s = s + item[1] +'\n'
+    return s
+
+#gets a combined text list of all n articles
+def get_n_articles(n=5):
+    out = []
+    for i in range(n):
+        out = out + make_text_list(rand_wh_page())
+    return out
+
+#list = make_text_list(rand_wh_page())
+#for item in list: print(item[1] + "\n")
 
 #TESTING_CODE
 #print(str(get_page("https://wikihow.com/api.php?action=app&subcmd=article&format=json&random=true&_=")))

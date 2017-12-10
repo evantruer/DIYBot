@@ -1,6 +1,8 @@
 import string
 from pathlib import Path
 import random
+import pull_data
+
 
 #Splits a string s into tokens and return a list of strings
 #Right now, just calls str.split() on a lowercased text and then separates punctuation
@@ -60,7 +62,7 @@ def makeWeights(tokens, ord=1):
 #TODO: Description
 def makeText(weights, startWords=None, numSentences=1, respectWeights=True, ord=1):
     #We choose a random starting state if startWords defaults to None.
-    currentState = startWords
+    currentState = list(startWords)
     if currentState is None :  currentState = random.choice(list(weights.keys()))
     #Man loop. Generates text until numSentences sentences are reached.
     #Specficially, numSentences is decremented every time we find '.', '?', or '!'
@@ -91,17 +93,29 @@ def makeText(weights, startWords=None, numSentences=1, respectWeights=True, ord=
         if tempBool : numSentences = numSentences - 1
     return textList
 
-order = 2
-s = Path("multiTest.txt").read_text()
-weights = makeWeights(tokenize(s),order)
+def formatOutput(outList):
+    out = string.capwords(outList[0])
+    for word in outList[1:]:
+        space = " "
+        if len(word) == 0 or word[len(word) - 1].isalnum() == False: space = ''
+        if out[len(out) - 1] == '.' or out[len(out) - 1] == '?' or out[len(out) - 1] == '!':
+            word = string.capwords(word)
+            space = ' '
+        out = out + space + word
+    return out
+
+
+#order = 2
+#s = Path("multiTest.txt").read_text()
+#weights = makeWeights(tokenize(s),order)
 #for key in weights : print(str(key) +": " + str(weights[key]))
-text = makeText(weights, ['how', 'to'], 5, False, order)
-out = string.capwords(text[0])
-for word in text[1:]:
-    space = " "
-    if len(word) == 0 or word[len(word)-1].isalnum() == False: space = ''
-    if out[len(out)-1] == '.' or out[len(out)-1] == '?' or out[len(out)-1] == '!':
-        word = string.capwords(word)
-        space = ' \n'
-    out = out + space + word
-print(out)
+#text = makeText(weights, ['how'], 5, False, order)
+#out = string.capwords(text[0])
+#for word in text[1:]:
+    #space = " "
+    #if len(word) == 0 or word[len(word)-1].isalnum() == False: space = ''
+    #if out[len(out)-1] == '.' or out[len(out)-1] == '?' or out[len(out)-1] == '!':
+        #word = string.capwords(word)
+        #space = ' \n'
+    #out = out + space + word
+#print(out)
