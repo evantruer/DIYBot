@@ -3,6 +3,7 @@ import markov
 import random
 
 order = 2
+articles = 5
 
 titles = 1
 abstracts = 0
@@ -16,7 +17,7 @@ methods_sen = 1
 summaries_sen = 1
 steps_sen = 2
 
-sourceList = pull_data.get_n_articles(5)
+sourceList = pull_data.get_n_articles(articles)
 tStarts, aStarts, mStarts, sStarts, xStarts = pull_data.findStartingWords(sourceList, order)
 text = pull_data.make_plaintext(sourceList)
 tokens = markov.tokenize(text)
