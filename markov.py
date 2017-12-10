@@ -60,7 +60,7 @@ def makeWeights(tokens, ord=1):
     return weights
 
 #TODO: Description
-def makeText(weights, startWords=None, numSentences=1, respectWeights=True, ord=1):
+def makeText(weights, startWords=None, numSentences=1, respectWeights=True, ord=1, endSenAt=5):
     #We choose a random starting state if startWords defaults to None.
     currentState = list(startWords)
     if currentState is None :  currentState = random.choice(list(weights.keys()))
@@ -68,11 +68,21 @@ def makeText(weights, startWords=None, numSentences=1, respectWeights=True, ord=
     #Specficially, numSentences is decremented every time we find '.', '?', or '!'
     textList = []
     for token in currentState: textList.append(token.lower())
+    numWords = ord
     while numSentences > 0:
         currentWeights = weights[tuple(currentState)]
         nextToken = ''
         try:
-            if respectWeights:
+            if numWords >= endSenAt and '.' in currentWeights :
+                nextToken = '.'
+                print("punctuation auto-selected\n")
+            elif numWords >= endSenAt and '!' in currentWeights:
+                nextToken = '!'
+                print("punctuation auto-selected\n")
+            elif numWords >= endSenAt and '?' in currentWeights:
+                nextToken = '?'
+                print("punctuation auto-selected\n")
+            elif respectWeights:
                 #TODO choose randomly according to weights
                 nextToken = random.choice(list(currentWeights.keys()))
             else:
@@ -83,6 +93,7 @@ def makeText(weights, startWords=None, numSentences=1, respectWeights=True, ord=
         #and said token sequence appears nowhere else, there's no "next token."
         #The only logicl solution is to terminate early even if there are still more sentences to generate.
         except KeyError: return textList
+        numWords = numWords+1
         textList.append(nextToken)
         currentState.append(nextToken)
         if len(currentState) > ord : currentState.pop(0)
@@ -90,7 +101,9 @@ def makeText(weights, startWords=None, numSentences=1, respectWeights=True, ord=
         tempBool = currentState[len(currentState)-1] == '.'
         tempBool = tempBool or currentState[len(currentState) - 1] == '?'
         tempBool = tempBool or currentState[len(currentState) - 1] == '!'
-        if tempBool : numSentences = numSentences - 1
+        if tempBool :
+            numSentences = numSentences - 1
+            numWords = 0
     return textList
 
 def formatOutput(outList):
