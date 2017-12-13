@@ -20,11 +20,12 @@ class textType(Enum):
     METHOD = 3
     SUMMARY = 4
     TEXT = 5
+    URL = 6
 
 #Pulls the webpage specified by url.
 def get_page(url):
     page = urllib.request.urlopen(url)
-    return page.read()
+    return page.read().decode("utf-8")
 
 #Pulls a random WikiHow article in JSON format.
 #The WikiHow API allows for the pulling of random articles.
@@ -75,11 +76,11 @@ def make_text_list(page):
     #get a page in XML format
     xmlPage = convert_to_xml(page)
     root = ET.fromstring(xmlPage)
-    #getting url
-    url = root.find("./app/url").text
-    print(url)
-    print("\n")
     textList = []
+    # getting url
+    url = root.find("./app/url").text
+    textList.append((textType.URL, url))
+    #print(url)
     title = root.find("./app/fulltitle")
     if title is not None: textList.append((textType.TITLE, title.text + "."))
     abstract = root.find("./app/sections/item/html")
@@ -101,15 +102,21 @@ def make_text_list(page):
             if text is not None: textList.append((textType.TEXT, remove_HTML_citations_paren(text.text)))
     return textList
 
-def findStartingWords(textList, ord = 1):
+def findStartingWordsAndUrls(textList, ord = 1):
     titleStarts = []
     abstractStarts = []
     methodStarts = []
     summaryStarts = []
     textStarts = []
+    urls = []
     for item in textList :
+        #print(item[1])
         splitText = markov.tokenize(item[1])
         newStartWords = []
+        #If url, get it and continue
+        if item[0] == textType.URL:
+            urls.append(item[1])
+            continue
         #skip over very short starting phrases
         if len(splitText) < ord : continue
         for i in range(ord):
@@ -123,14 +130,15 @@ def findStartingWords(textList, ord = 1):
             methodStarts.append(newTuple)
         elif item[0] == textType.SUMMARY :
             summaryStarts.append(newTuple)
-        else :
+        elif item[0] == textType.TEXT:
             textStarts.append(newTuple)
-    return titleStarts, abstractStarts, methodStarts, summaryStarts, textStarts
+    return titleStarts, abstractStarts, methodStarts, summaryStarts, textStarts, urls
 
 #makes a plaintext out of a text list
 def make_plaintext(textList):
     s = ""
-    for item in textList : s = s + item[1] +'\n'
+    for item in textList:
+        if item[0] != textType.URL: s = s + item[1] +'\n'
     return s
 
 #gets a combined text list of all n articles

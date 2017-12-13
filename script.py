@@ -1,8 +1,10 @@
 import pull_data
 import markov
 import random
+import facebook
 
 import time
+import sys
 
 order = 2
 articles = 5
@@ -35,7 +37,7 @@ steps_min_words = 5
 
 def makeGuide():
     sourceList = pull_data.get_n_articles(articles)
-    tStarts, aStarts, mStarts, sStarts, xStarts = pull_data.findStartingWords(sourceList, order)
+    tStarts, aStarts, mStarts, sStarts, xStarts, urls = pull_data.findStartingWordsAndUrls(sourceList, order)
     text = pull_data.make_plaintext(sourceList)
     tokens = markov.tokenize(text)
     weights = markov.makeWeights(tokens, order)
@@ -47,7 +49,7 @@ def makeGuide():
         numSentences = titles_sen
         minWords = titles_min_words
         text = text + markov.formatOutput(markov.makeText(weights, startWords, numSentences, True, order, titles_rec_size, titles_min_words)) + "\n"
-    text = text +'\n'
+    #text = text +'\n'
     for i in range(abstracts):
         #print("abstract")
         startWords = random.choice(aStarts)
@@ -76,8 +78,14 @@ def makeGuide():
         minWords = steps_min_words
         text = text + markov.formatOutput(markov.makeText(weights, startWords, numSentences, True, order, steps_rec_size, steps_min_words)) + "\n"
 
-    print('\n'+text)
+    return text, urls
 
+def makeFacebookPost(text, urls, time):
+    return
+
+#print(sys.version)
 start = time.time()
-makeGuide()
+text, urls = makeGuide()
+print(text)
+for url in urls: print("url: "+url)
 print("time taken: "+ str(time.time()-start)+ "seconds")
