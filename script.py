@@ -80,12 +80,30 @@ def makeGuide():
 
     return text, urls
 
-def makeFacebookPost(text, urls, time):
-    return
+def get_credentials(location='userData.ini'):
+    f = open('userData.ini', 'r')
+    items = f.read().split()
+    f.close()
+    page_id = ''
+    app_id = ''
+    app_secret = ''
+    access_token = ''
+    for i in range(len(items)-1):
+        if items[i].lower() == 'page_id=': page_id = items[i+1]
+        elif items[i].lower() == 'app_id=': app_id = items[i+1]
+        elif items[i].lower() == 'app_secret=': app_secret = items[i + 1]
+        elif items[i].lower() == 'access_token=': access_token = items[i + 1]
 
-#print(sys.version)
+    return page_id, app_id, app_secret, access_token
+
+page_id, app_id, app_secret, access_token = get_credentials()
+
 start = time.time()
 text, urls = makeGuide()
+#print("access token: "+access_token)
+graph = facebook.GraphAPI(access_token= access_token)
+graph.put_object(parent_object=page_id, connection_name='feed', message= text)
+
 print(text)
 for url in urls: print("url: "+url)
 print("time taken: "+ str(time.time()-start)+ "seconds")
