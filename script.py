@@ -88,22 +88,26 @@ def get_credentials(location='userData.ini'):
     app_id = ''
     app_secret = ''
     access_token = ''
+    page_token = ''
     for i in range(len(items)-1):
         if items[i].lower() == 'page_id=': page_id = items[i+1]
         elif items[i].lower() == 'app_id=': app_id = items[i+1]
         elif items[i].lower() == 'app_secret=': app_secret = items[i + 1]
         elif items[i].lower() == 'access_token=': access_token = items[i + 1]
+        elif items[i].lower() == 'page_token=': page_token = items[i + 1]
 
-    return page_id, app_id, app_secret, access_token
+    return page_id, app_id, app_secret, access_token, page_token
 
-page_id, app_id, app_secret, access_token = get_credentials()
+page_id, app_id, app_secret, access_token, page_token = get_credentials()
 
 start = time.time()
 text, urls = makeGuide()
 #print("access token: "+access_token)
-graph = facebook.GraphAPI(access_token= access_token)
-graph.put_object(parent_object=page_id, connection_name='feed', message= text)
-
-print(text)
-for url in urls: print("url: "+url)
-print("time taken: "+ str(time.time()-start)+ "seconds")
+graph = facebook.GraphAPI(access_token= page_token)
+post_id = graph.put_object(parent_object=page_id, connection_name='feed', message= text)
+#print(post_id)
+commentStr = 'ARTICLES USED:'
+for url in urls: commentStr = commentStr + "\n" + url
+graph.put_comment(object_id=post_id['id'], message=commentStr)
+#print(commentStr)
+#print("time taken: "+ str(time.time()-start)+ "seconds")
