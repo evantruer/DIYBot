@@ -42,6 +42,10 @@ def makeGuide():
     tokens = markov.tokenize(text)
     weights = markov.makeWeights(tokens, order)
 
+    artTitles = []
+    for item in sourceList:
+        if item[0] == pull_data.textType.TITLE: artTitles.append(item[1])
+
     text = ''
     for i in range(titles):
         #print("title")
@@ -78,7 +82,7 @@ def makeGuide():
         minWords = steps_min_words
         text = text + markov.formatOutput(markov.makeText(weights, startWords, numSentences, True, order, steps_rec_size, steps_min_words)) + "\n"
 
-    return text, urls
+    return text, urls, artTitles
 
 def get_credentials(location='userData.ini'):
     f = open('userData.ini', 'r')
@@ -101,13 +105,15 @@ def get_credentials(location='userData.ini'):
 page_id, app_id, app_secret, access_token, page_token = get_credentials()
 
 start = time.time()
-text, urls = makeGuide()
+text, urls, titles = makeGuide()
 #print("access token: "+access_token)
 graph = facebook.GraphAPI(access_token= page_token)
 post_id = graph.put_object(parent_object=page_id, connection_name='feed', message= text)
 #print(post_id)
 commentStr = 'ARTICLES USED:'
-for url in urls: commentStr = commentStr + "\n" + url
+#for url in urls: commentStr = commentStr + "\n" + url
+for title in titles: commentStr = commentStr + "\n" + title
+commentStr = commentStr + "\n\n" + "(Links temporarily removed to avoid Facebook's spam filter)"
 graph.put_comment(object_id=post_id['id'], message=commentStr)
-#print(commentStr)
+print(commentStr)
 #print("time taken: "+ str(time.time()-start)+ "seconds")
