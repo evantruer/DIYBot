@@ -9,7 +9,7 @@ from html.parser import HTMLParser
 from enum import Enum
 import xml
 import string
-#import markov
+import markov
 
 class textType(Enum):
     END = 0
@@ -68,7 +68,7 @@ def clean_wikitext(s):
     #Now we decide what we need to replace the double brackets with
     replacements = []
     # Since what we want to do is dependent on the type of brace, we handle them separately
-    while len(curly_starts) > 0:
+    while len(curly_starts) > 0 and len(curly_ends) > 0:
         #Get the bounds of a pair of double braces
         start = curly_starts.pop()
         end = curly_ends.pop()
@@ -127,7 +127,7 @@ def clean_wikitext(s):
             #In this case, the second token is what a WikiHow user would see
             elif len(tokens) == 2:
                 replacements.append((toReplace, tokens[1]))
-    while len(square_starts) > 0:
+    while len(square_starts) > 0 and len(square_ends) > 0:
         # Get the bounds of a pair of double braces
         start = square_starts.pop()
         end = square_ends.pop()
@@ -164,6 +164,9 @@ def clean_wikitext(s):
         s = re.sub(re.escape(replacement[0]), replacement[1], s)
     #remove multiple single quotation marks
     s = re.sub("'{2,100}", "", s)
+    punctuation = [".", "?", "!"]
+    if  len(s) > 0 and s[len(s)-1] not in punctuation:
+        s += '.'
     return s.lstrip()
 
 #Takes the query result in XML format and parses it into a list of titles and steps in order
@@ -183,7 +186,7 @@ def parse_page(queryResult):
         textList.append((textType.TITLE, title + "."))
         temp = article.find(namespace+"revision")
         text = temp.find(namespace+"text").text
-        print("article text:\n"+text)
+        #print("article text:\n"+text)
         linesList = text.splitlines()
         class states(Enum):
             ABSTRACT = 0
@@ -233,9 +236,29 @@ def findStartingWordsAndUrls(textList, ord = 1):
             textStarts.append(newTuple)
     return titleStarts, textStarts
 
-result = rand_wh_pages(10)
-example = parse_page(result)
-print("\n\ncleaned article:")
-for line in example:
-    #break
-    print (line[1])
+#makes a plaintext out of a text list
+def make_plaintext(textList):
+    s = ""
+    for item in textList:
+        if item[0] != textType.END: s = s + item[1] +'\n'
+    return s
+
+#gets a combined text list of n articles
+def get_n_articles(n):
+    pages = rand_wh_pages(n)
+    lineList = parse_page(pages)
+    out = []
+    for line in lineList:
+        if line[0] is not textType.END:
+            out.append(line)
+    return out
+
+
+
+#result = rand_wh_pages(10)
+#example = parse_page(result)
+#print("\n\ncleaned article:")
+#for line in example:
+#    #break
+#    print (line[1])
+#print(get_n_articles(10))

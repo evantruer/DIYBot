@@ -129,10 +129,10 @@ def formatOutput(outList):
 #text = makeText(weights, ['how'], 5, False, order)
 #out = string.capwords(text[0])
 #for word in text[1:]:
-    #space = " "
-    #if len(word) == 0 or word[len(word)-1].isalnum() == False: space = ''
-    #if out[len(out)-1] == '.' or out[len(out)-1] == '?' or out[len(out)-1] == '!':
-        #word = string.capwords(word)
-        #space = ' \n'
-    #out = out + space + word
+#    space = " "
+#    if len(word) == 0 or word[len(word)-1].isalnum() == False: space = ''
+#    if out[len(out)-1] == '.' or out[len(out)-1] == '?' or out[len(out)-1] == '!':
+#        word = string.capwords(word)
+#        space = ' \n'
+#    out = out + space + word
 #print(out)
