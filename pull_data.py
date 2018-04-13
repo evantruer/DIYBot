@@ -239,15 +239,3 @@ print("\n\ncleaned article:")
 for line in example:
     #break
     print (line[1])
-    #if (("{{" in line or "}}" in line) or ("[[" in line or "]]" in line)) or ("<" in line or ">" in line): print("error in: "+line)
-
-#string testing
-s = "#* [[Cry and Let It All Out|Cry]][[Image:Become Friends With Your Roommate Step 2.jpg|center]]{{button|Memories}}{{whvid|Build a Wooden Planter Box Step 13.360p.mp4|Build a Wooden Planter Box Step 13-preview.jpg|Build a Wooden Planter Box Step 13.jpg|gif=Build a Wooden Planter Box Step 13.360p.gif|giffirst=Build a Wooden Planter Box Step 13.360p.first.gif}} ''some more''"
-#print(clean_wikitext(s))
-#print(s)
-#s = re.sub("\[\[Image:.*\]\]", "", s)
-#print(s)
-#s = re.sub("\[\[.*\|", "", s)
-#print(s)
-#s = re.sub("\]\]", "", s)
-#print(s)
