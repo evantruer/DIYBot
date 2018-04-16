@@ -253,12 +253,15 @@ def get_n_articles(n):
             out.append(line)
     return out
 
+#gets rid of urls from string s
+#does this by replacing '.' with ',' if chars on both sides are alphanum
+def remove_urls(s):
+    char_list = list(s)
+    for i in range(1, len(s)-1):
+        if s[i] == "." and (s[i-1].isalnum() and s[i+1].isalnum()):
+            char_list[i] = ","
 
+    return ''.join(char_list)
 
-#result = rand_wh_pages(10)
-#example = parse_page(result)
-#print("\n\ncleaned article:")
-#for line in example:
-#    #break
-#    print (line[1])
-#print(get_n_articles(10))
+#sample_urls = "whitehouse.gov google.com bbc.co.uk en.wikipedia.org twitch.tv"
+#print(remove_urls(sample_urls))
