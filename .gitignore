@@ -103,3 +103,4 @@ ENV/
 # ini files
 userData.ini
 *.iml
+*.xml
